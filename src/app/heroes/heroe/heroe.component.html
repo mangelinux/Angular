@@ -1,0 +1,20 @@
+<h1>Heroe Component: {{nombre}}</h1>
+
+<dl>
+    <td>Nombre:</td>
+    <dd>{{nombre}}</dd>
+
+    <td>Edad:</td>
+    <dd>{{edad}}</dd>
+
+    <td>Método // Datos completos:</td>
+    <dd>{{obtenerDatosCompletos()}}</dd>
+
+    <td>Get // Nombre capitalizado:</td>
+    <dd>{{nombreCapitalizado}}</dd>
+
+</dl>
+
+<button (click)="cambiarNombre()">Cambiar héroe</button>
+
+<button (click)="cambiarEdad()">Cambiar edad</button>
